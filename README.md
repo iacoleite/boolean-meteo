@@ -11,16 +11,14 @@ This project is a weather web application built using HTML, CSS, and JavaScript 
 
 Before running the application, you need to create an API key for each service and store them in a separate file named config.js located in the same directory as your main HTML file.
 
-Instructions:
+**Instructions**:
 
-Create a file named config.js:
+Create a file named config.js that contains:
 
-JavaScript
+const GEOCODE_API_KEY = 'YOUR_GEOCODE_API_KEY';
+const OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY';
 
-let GEOCODE_API_KEY = 'YOUR_GEOCODE_API_KEY';
-let OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY';
-
-Replace the placeholders:
+**Replace the placeholders**:
 
 YOUR_GEOCODE_API_KEY: Free API key from https://geocode.maps.co/join/
 
