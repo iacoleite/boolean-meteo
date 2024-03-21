@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it" class="js-loading">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Meteo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href ="./images/icon.png">
+</head>
+<body>
+<div class="container">
+    <header class="panel">
+        <img class="theme__icon" src="images/dark-theme-svgrepo-com.svg" alt="toggle theme icon">
+        <h1>Meteo</h1>
+        <img src="images/logo.png" alt="logo boolean">
+    </header>    
+    <main>
+        <div class="weather-info panel">
+            <div class="weather-location">Calcolo...</div>
+            <img src="" alt="" class="weather-icon">
+            <div class="weather-temperature"></div>
+        </div>
+        <div class="suggestion panel"></div>
+        <div class="panel input">
+            <input type='text' id='usr_Input' placeholder="Cerca una città">
+            <button id="__button__search">Cerca</button>
+        </div>
+        </main>
+    <script type="text/javascript" src="./suggestions.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./config.js"></script>
+    </div>
+</body>
+</html>
