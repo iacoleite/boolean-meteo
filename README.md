@@ -23,4 +23,5 @@ let OPENWEATHER_API_KEY = 'YOUR_OPENWEATHER_API_KEY';
 Replace the placeholders:
 
 YOUR_GEOCODE_API_KEY: Free API key from https://geocode.maps.co/join/
+
 YOUR_OPENWEATHER_API_KEY: Free API key from OpenWeatherMap: https://openweathermap.org/
